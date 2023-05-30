@@ -1,0 +1,27 @@
+ALIGN 4
+
+
+ArchipelagoTryGiveItem_Hook_base:
+#define ArchipelagoTryGiveItem_Hook ArchipelagoTryGiveItem_Hook_base|1
+SHORT 0xb510
+SHORT 0x4b07
+SHORT 0xf000
+SHORT 0xf814
+SHORT 0x4b06
+SHORT 0xf000
+SHORT 0xf811
+SHORT 0x4b06
+SHORT 0xf000
+SHORT 0xf80e
+SHORT 0x4b05
+SHORT 0xf000
+SHORT 0xf80b
+SHORT 0xbc10
+SHORT 0xbc01
+SHORT 0x4700
+POIN ArchipelagoTryGiveItem
+WORD 0x08080421
+WORD 0x0801762d
+WORD 0x0807f621
+SHORT 0x4718
+SHORT 0x46c0

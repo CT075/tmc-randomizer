@@ -1,0 +1,10 @@
+
+#include "c/archipelago.event"
+
+//   ldr r3, L_ArchipelagoTryGiveItem_Hook
+//   mv lr, r3
+//   bl lr+0
+//   b rest
+// L_ArchipelagoTryGiveItem:
+//   .long ArchipelagoTryGiveItem
+// Rest:
