@@ -25,7 +25,8 @@ extern void UpdateDoorTransition(void);
 extern void CollisionMain(void);
 extern void UpdateScroll();
 
-// Hook in [archipelago.event] takes 6 words, wiping 3 bl calls
+// Hook in [archipelago.event] takes 6 words, wiping exactly 3 bl calls from
+// [GameUpdate_Main], reproduced here.
 void ArchipelagoTryGiveItem_Hook() {
     ArchipelagoTryGiveItem();
     UpdateDoorTransition();
